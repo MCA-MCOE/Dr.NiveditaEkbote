@@ -1,0 +1,18 @@
+.photos {
+    /*   display: grid;
+      grid-template-columns: repeat(3, 3fr);
+      grid-gap: 20px; */
+       column-count: 3;
+    } 
+    
+    .photos img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 5%;
+      filter: contrast(100%);
+      transition: all 0.2s ease-in-out;
+    }
+    
+    .photos img:hover {
+      filter: contrast(125%);
+    }
